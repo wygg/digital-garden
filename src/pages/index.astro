@@ -1,173 +1,123 @@
----
-// 1. 使用 Vite 的 glob 功能直接抓取文件，绕过 content collection
-const posts = Object.values(import.meta.glob('../content/garden/*.md', { eager: true }));
-
-// 简单排序
-posts.sort((a: any, b: any) => {
-    // 尝试读取 frontmatter 中的 date，如果没有就用 0
-    const dateA = new Date(a.frontmatter.date || 0).valueOf();
-    const dateB = new Date(b.frontmatter.date || 0).valueOf();
-    return dateB - dateA;
-});
-
-console.log('DEBUG: Found RAW posts:', posts.length);
-if (posts.length > 0) console.log('First RAW post:', (posts[0] as any).frontmatter);
----
 
 ---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
 <!doctype html>
-<html lang="zh-CN">
+<html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>Antigravity Digital Garden</title>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
         <style>
-            /* 🌿 Antigravity Garden Theme */
-            :root {
-                --bg-color: #f8f9fa;
-                --text-main: #2c3e50;
-                --text-sub: #6c757d;
-                --accent: #10b981; /* Emerald Green */
-                --card-bg: #ffffff;
-                --hover-bg: #e0f2fe;
-            }
-
-            body {
-                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-                background-color: var(--bg-color);
-                color: var(--text-main);
-                line-height: 1.6;
-                margin: 0;
-                padding: 0;
-            }
-
-            .container {
-                max-width: 720px;
-                margin: 0 auto;
-                padding: 4rem 1.5rem;
-            }
-
-            /* Header */
-            header {
-                margin-bottom: 4rem;
+            /* 首页特有的全屏英雄区样式 */
+            .hero {
+                min-height: 80vh; /* 占据视口高度 */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
                 text-align: center;
+                background: radial-gradient(circle at center, rgba(16, 185, 129, 0.05) 0%, rgba(255, 255, 255, 0) 70%);
             }
+            
             h1 {
-                font-size: 2.5rem;
-                font-weight: 800;
-                margin: 0 0 1rem 0;
-                letter-spacing: -0.05rem;
+                font-size: 5rem;
+                font-weight: 900;
+                line-height: 1.1;
+                margin-bottom: 1rem;
                 background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-            }
-            p.subtitle {
-                font-size: 1.1rem;
-                color: var(--text-sub);
-            }
-
-            /* Post List */
-            .post-list {
-                display: grid;
-                gap: 1.5rem;
+                letter-spacing: -2px;
             }
             
-            article {
-                background: var(--card-bg);
-                padding: 1.5rem;
-                border-radius: 12px;
-                box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-                transition: transform 0.2s ease, box-shadow 0.2s ease;
-                border: 1px solid rgba(0,0,0,0.03);
-            }
-
-            article:hover {
-                transform: translateY(-2px);
-                box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-            }
-
-            a.post-link {
-                text-decoration: none;
-                display: block;
-            }
-
-            h2 {
-                margin: 0 0 0.5rem 0;
-                font-size: 1.4rem;
-                color: var(--text-main);
-            }
-
-            .meta {
-                font-size: 0.9rem;
-                color: var(--text-sub);
-                display: flex;
-                gap: 1rem;
-                align-items: center;
-            }
-
-            .tags {
-                display: flex;
-                gap: 0.5rem;
-            }
-            .tag {
-                background: #f3f4f6;
+            .subtitle {
+                font-size: 1.5rem;
                 color: #4b5563;
-                padding: 0.2rem 0.6rem;
-                border-radius: 999px;
-                font-size: 0.75rem;
-                font-weight: 500;
+                margin-bottom: 3rem;
+                max-width: 600px;
+                line-height: 1.6;
             }
-            
-            /* Empty State */
-            .empty-state {
-                text-align: center;
-                padding: 3rem;
-                background: #fff;
-                border-radius: 12px;
-                color: var(--text-sub);
-                border: 2px dashed #e5e7eb;
+
+            .cta-buttons {
+                display: flex;
+                gap: 20px;
+            }
+
+            .btn {
+                padding: 15px 40px;
+                border-radius: 999px;
+                font-weight: 600;
+                font-size: 1.1rem;
+                text-decoration: none;
+                transition: all 0.3s ease;
+                box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            }
+
+            .btn-primary {
+                background: #10b981; /* Emerald-500 */
+                color: white;
+            }
+            .btn-primary:hover {
+                background: #059669; /* Emerald-600 */
+                transform: translateY(-2px);
+                box-shadow: 0 10px 15px -3px rgba(16, 185, 129, 0.3);
+            }
+
+            .btn-secondary {
+                background: white;
+                color: #374151;
+                border: 1px solid #e5e7eb;
+            }
+            .btn-secondary:hover {
+                background: #f9fafb;
+                border-color: #d1d5db;
+                transform: translateY(-2px);
             }
         </style>
 	</head>
 	<body>
-		
-        <div class="container">
+		<Header />
+		<main>
+            <div class="hero">
+                <div style="font-size: 80px; margin-bottom: 20px;">🚀</div>
+                <h1>Antigravity OS</h1>
+                <p class="subtitle">
+                    知行合一的第二大脑。<br/>
+                    <span style="font-size: 0.8em; color: #9ca3af; margin-top: 10px; display: block;">
+                        Study • Think • Action
+                    </span>
+                </p>
+                
+                <div class="cta-buttons">
+                    <a href="/garden/" class="btn btn-primary">
+                        🌿 Enter Garden
+                    </a>
+                    <a href="/about/" class="btn btn-secondary">
+                        About Me
+                    </a>
+                </div>
+            </div>
             
-            <header>
-                <h1>Antigravity Garden 🌿</h1>
-                <p class="subtitle">知 (Study & Think) 与 行 (Action) 的交汇点</p>
-            </header>
+            {/* 特性展示区 (可选) */}
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; padding: 60px 0; text-align: center;">
+                <div>
+                    <h3 style="font-size: 1.5rem;">🧠 Study</h3>
+                    <p style="color: #666;">持续输入的知识库</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.5rem;">💡 Think</h3>
+                    <p style="color: #666;">深度思考的孵化器</p>
+                </div>
+                <div>
+                    <h3 style="font-size: 1.5rem;">⚡ Action</h3>
+                    <p style="color: #666;">知行合一的执行力</p>
+                </div>
+            </div>
 
-            <main class="post-list">
-                {posts.map((post: any) => (
-                    <article>
-                        <a href={`/garden/${post.frontmatter.slug || post.url?.split('/').pop()?.replace('.md', '')}/`} class="post-link">
-                            <h2>{post.frontmatter.title}</h2>
-                            <div class="meta">
-                                <time>{new Date(post.frontmatter.date).toLocaleDateString('zh-CN')}</time>
-                                {post.frontmatter.tags && (
-                                    <div class="tags">
-                                        {post.frontmatter.tags.map((tag: string) => (
-                                            <span class="tag">#{tag}</span>
-                                        ))}
-                                    </div>
-                                )}
-                            </div>
-                        </a>
-                    </article>
-                ))}
-
-                {posts.length === 0 && (
-                    <div class="empty-state">
-                        🌱 花园里还没有植物。<br/>请运行 <code>sync_garden.py</code> 播种。
-                    </div>
-                )}
-            </main>
-
-            <footer style="margin-top: 4rem; text-align: center; font-size: 0.9rem; color: #9ca3af;">
-                &copy; 2026 Antigravity OS.
-            </footer>
-
-        </div>
+		</main>
+		<Footer />
 	</body>
 </html>

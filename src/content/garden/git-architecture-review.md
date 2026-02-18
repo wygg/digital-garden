@@ -61,7 +61,7 @@ Git 在当前目录下创建了一个隐藏的 `.git` 文件夹。
 ```bash
 git branch -M main
 ```
-*   **原因**：Git 默认分支名曾是 `master`，但为了响应 inclusivity 运动，现在全球标准已改为 `main`。GitHub 新建的仓库也默认叫 `main`，如果本地叫 `master`，推送时会产生不再需要的歧义。
+*   **原因**：Git 默认分支名曾是 `master`，但为了响应我在github上看到它把master改成main，说是响应这个运动。解释啊下，现在全球标准已改为 `main`。GitHub 新建的仓库也默认叫 `main`，如果本地叫 `master`，推送时会产生不再需要的歧义。
 
 ### Phase 2: 防御工事 (.gitignore)
 
