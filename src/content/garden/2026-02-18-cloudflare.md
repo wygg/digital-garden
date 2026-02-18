@@ -13,7 +13,7 @@ title: cloudflare 图片测试
 
 ## 🧠 学 (Study)
 > 记录今天的输入：
-![截屏2026-01-30 12.03.12.png](https://pub-de21be1de01e413e8fddf6e380989c0a.r2.dev/2026-01-30-12-03-12.png)
+![截屏2026-01-30 12.03.12.png](https://pub-de21be1de01e413e8fddf6e380989c0a.r2.dev/2026-01-30-12-03-12.jpg)
 ## 💡 思 (Think)
 > 记录今天的思考：
 
