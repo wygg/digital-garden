@@ -12,6 +12,16 @@ export default defineConfig({
     integrations: [
         starlight({
             title: 'Antigravity Garden',
+            locales: {
+                root: {
+                    label: '简体中文',
+                    lang: 'zh-CN',
+                },
+                en: {
+                    label: 'English',
+                    lang: 'en',
+                },
+            },
             social: [
                 { label: 'GitHub', icon: 'github', href: 'https://github.com/withastro/starlight' },
             ],
