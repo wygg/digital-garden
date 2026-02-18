@@ -1,6 +1,5 @@
 ---
 date: 2026-02-18
-slug: 2026-02-18-ai-memory-constitution
 tags:
 - Life/日记
 - AI/Agent

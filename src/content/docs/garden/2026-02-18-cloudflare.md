@@ -1,6 +1,5 @@
 ---
 date: 2026-02-18
-slug: 2026-02-18-cloudflare
 tags:
 - Life/日记
 title: cloudflare 图片测试

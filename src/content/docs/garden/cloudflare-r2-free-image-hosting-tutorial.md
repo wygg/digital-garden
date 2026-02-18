@@ -1,6 +1,5 @@
 ---
 date: 2026-02-18
-slug: cloudflare-r2-free-image-hosting-tutorial
 tags:
 - Tutorial
 - Cloudflare

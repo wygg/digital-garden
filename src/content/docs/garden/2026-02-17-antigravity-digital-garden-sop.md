@@ -1,6 +1,5 @@
 ---
 title: 2026-02-17 Antigravity Digital Garden 架构与SOP
-slug: 2026-02-17-antigravity-digital-garden-sop
 date: 2026-02-18
 tags: [public]
 ---

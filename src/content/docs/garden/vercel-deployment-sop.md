@@ -1,6 +1,5 @@
 ---
 date: 2026-02-18
-slug: vercel-deployment-sop
 tags:
 - vercel
 - deployment

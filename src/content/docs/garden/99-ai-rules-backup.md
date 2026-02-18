@@ -1,6 +1,5 @@
 ---
 title: 99_AI_Rules_Backup
-slug: 99-ai-rules-backup
 date: 2026-02-18
 tags: [public]
 ---

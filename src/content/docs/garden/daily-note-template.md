@@ -1,6 +1,5 @@
 ---
 date: '2026-02-18'
-slug: daily-note-template
 title: daily_note_template
 ---
 

@@ -1,6 +1,5 @@
 ---
 date: 2026-02-18
-slug: how-antigravity-os-works-for-beginners
 tags:
 - Tutorial
 - DigitalGarden
