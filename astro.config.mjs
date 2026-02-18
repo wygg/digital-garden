@@ -28,10 +28,16 @@ export default defineConfig({
             sidebar: [
                 {
                     label: '数字花园',
+                    translations: {
+                        en: 'Digital Garden',
+                    },
                     autogenerate: { directory: 'garden' },
                 },
                 {
                     label: '博客文章',
+                    translations: {
+                        en: 'Blog Posts',
+                    },
                     autogenerate: { directory: 'blog' },
                 },
             ],

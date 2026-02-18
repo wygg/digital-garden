@@ -1,10 +1,10 @@
 ---
 date: 2026-02-18
 tags:
-- Life/Journal
-- AI/Agent
-- Project/Antigravity
-title: Fighting AI Amnesia: On the Constitution and Heritage of Antigravity OS
+  - Life/Journal
+  - AI/Agent
+  - Project/Antigravity
+title: "Fighting AI Amnesia: On the Constitution and Heritage of Antigravity OS"
 ---
 
 # 📅 2026-02-18 Fighting AI Amnesia: On the Constitution and Heritage of Antigravity OS
