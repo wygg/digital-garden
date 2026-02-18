@@ -12,7 +12,7 @@ slug: 2026-02-18-cloudflare 图片测试
 
 ## 🧠 学 (Study)
 > 记录今天的输入：
-![截屏2026-01-30 12.03.12.png](https://pub-de21be1de01e413e8fddf6e380989c0a.r2.dev/截屏2026-01-30 12.03.12.png)
+![截屏2026-01-30 12.03.12.png](https://pub-de21be1de01e413e8fddf6e380989c0a.r2.dev/%E6%88%AA%E5%B1%8F2026-01-30-120312.png)
 ## 💡 思 (Think)
 > 记录今天的思考：
 
