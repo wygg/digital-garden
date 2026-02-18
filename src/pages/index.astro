@@ -1,0 +1,173 @@
+---
+// 1. 使用 Vite 的 glob 功能直接抓取文件，绕过 content collection
+const posts = Object.values(import.meta.glob('../content/garden/*.md', { eager: true }));
+
+// 简单排序
+posts.sort((a: any, b: any) => {
+    // 尝试读取 frontmatter 中的 date，如果没有就用 0
+    const dateA = new Date(a.frontmatter.date || 0).valueOf();
+    const dateB = new Date(b.frontmatter.date || 0).valueOf();
+    return dateB - dateA;
+});
+
+console.log('DEBUG: Found RAW posts:', posts.length);
+if (posts.length > 0) console.log('First RAW post:', (posts[0] as any).frontmatter);
+---
+
+---
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Antigravity Digital Garden</title>
+        <style>
+            /* 🌿 Antigravity Garden Theme */
+            :root {
+                --bg-color: #f8f9fa;
+                --text-main: #2c3e50;
+                --text-sub: #6c757d;
+                --accent: #10b981; /* Emerald Green */
+                --card-bg: #ffffff;
+                --hover-bg: #e0f2fe;
+            }
+
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+                background-color: var(--bg-color);
+                color: var(--text-main);
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                max-width: 720px;
+                margin: 0 auto;
+                padding: 4rem 1.5rem;
+            }
+
+            /* Header */
+            header {
+                margin-bottom: 4rem;
+                text-align: center;
+            }
+            h1 {
+                font-size: 2.5rem;
+                font-weight: 800;
+                margin: 0 0 1rem 0;
+                letter-spacing: -0.05rem;
+                background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            p.subtitle {
+                font-size: 1.1rem;
+                color: var(--text-sub);
+            }
+
+            /* Post List */
+            .post-list {
+                display: grid;
+                gap: 1.5rem;
+            }
+            
+            article {
+                background: var(--card-bg);
+                padding: 1.5rem;
+                border-radius: 12px;
+                box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+                border: 1px solid rgba(0,0,0,0.03);
+            }
+
+            article:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            }
+
+            a.post-link {
+                text-decoration: none;
+                display: block;
+            }
+
+            h2 {
+                margin: 0 0 0.5rem 0;
+                font-size: 1.4rem;
+                color: var(--text-main);
+            }
+
+            .meta {
+                font-size: 0.9rem;
+                color: var(--text-sub);
+                display: flex;
+                gap: 1rem;
+                align-items: center;
+            }
+
+            .tags {
+                display: flex;
+                gap: 0.5rem;
+            }
+            .tag {
+                background: #f3f4f6;
+                color: #4b5563;
+                padding: 0.2rem 0.6rem;
+                border-radius: 999px;
+                font-size: 0.75rem;
+                font-weight: 500;
+            }
+            
+            /* Empty State */
+            .empty-state {
+                text-align: center;
+                padding: 3rem;
+                background: #fff;
+                border-radius: 12px;
+                color: var(--text-sub);
+                border: 2px dashed #e5e7eb;
+            }
+        </style>
+	</head>
+	<body>
+		
+        <div class="container">
+            
+            <header>
+                <h1>Antigravity Garden 🌿</h1>
+                <p class="subtitle">知 (Study & Think) 与 行 (Action) 的交汇点</p>
+            </header>
+
+            <main class="post-list">
+                {posts.map((post: any) => (
+                    <article>
+                        <a href={`/garden/${post.frontmatter.slug || post.url?.split('/').pop()?.replace('.md', '')}/`} class="post-link">
+                            <h2>{post.frontmatter.title}</h2>
+                            <div class="meta">
+                                <time>{new Date(post.frontmatter.date).toLocaleDateString('zh-CN')}</time>
+                                {post.frontmatter.tags && (
+                                    <div class="tags">
+                                        {post.frontmatter.tags.map((tag: string) => (
+                                            <span class="tag">#{tag}</span>
+                                        ))}
+                                    </div>
+                                )}
+                            </div>
+                        </a>
+                    </article>
+                ))}
+
+                {posts.length === 0 && (
+                    <div class="empty-state">
+                        🌱 花园里还没有植物。<br/>请运行 <code>sync_garden.py</code> 播种。
+                    </div>
+                )}
+            </main>
+
+            <footer style="margin-top: 4rem; text-align: center; font-size: 0.9rem; color: #9ca3af;">
+                &copy; 2026 Antigravity OS.
+            </footer>
+
+        </div>
+	</body>
+</html>
