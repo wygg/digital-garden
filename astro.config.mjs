@@ -8,7 +8,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://example.com',
+    site: 'https://digital-garden-nine-alpha.vercel.app',
     integrations: [
         starlight({
             title: 'Antigravity Garden',
