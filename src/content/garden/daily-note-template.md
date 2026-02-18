@@ -1,9 +1,4 @@
 ---
-title: daily_note_template
-slug: daily-note-template
-date: 2026-02-18
----
----
 title: {{title}}
 date: {{date}}
 tags: [Life/日记]

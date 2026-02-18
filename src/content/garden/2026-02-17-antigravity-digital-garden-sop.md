@@ -1,8 +1,10 @@
 ---
 title: 2026-02-17 Antigravity Digital Garden 架构与SOP
-slug: 0-0-antigravity-digital-garden-sop
+slug: 2026-02-17-antigravity-digital-garden-sop
 date: 2026-02-18
+tags: [public]
 ---
+
 # 🌌 Antigravity Digital Garden 架构与SOP：从博客到数字生命体
 
 **版本**：1.0

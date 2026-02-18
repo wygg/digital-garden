@@ -1,8 +1,10 @@
 ---
 title: 99_AI_Rules_Backup
-slug: ai-rules-backup
+slug: 99-ai-rules-backup
 date: 2026-02-18
+tags: [public]
 ---
+
 # Antigravity OS - AI Behavior Rules
 
 You are the intelligent assistant for the "Antigravity OS", a personal knowledge management and action system.

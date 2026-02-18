@@ -1,8 +1,10 @@
 ---
 title: 2026-02-17 Antigravity Garden 知识管理体系与 URL 策略
-slug: 0-0-antigravity-garden-url
+slug: 2026-02-17-antigravity-garden-url
 date: 2026-02-18
+tags: [public]
 ---
+
 # 🗂️ Antigravity Garden 知识管理体系与 URL 策略
 
 **版本**：1.0
