@@ -1,8 +1,12 @@
 ---
-title: Git与Ag-OS架构实战复盘手册
 date: 2026-02-18
-tags: [git, architecture, study, antigravity]
 slug: git-architecture-review
+tags:
+- git
+- architecture
+- study
+- antigravity
+title: Git与Ag-OS架构实战复盘手册
 ---
 
 # 🛡️ Git 与 Antigravity-OS 双轨架构实战复盘

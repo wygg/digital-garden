@@ -1,8 +1,11 @@
 ---
-title: 大年初一知识管理体系构建 (Information Architecture) 升级
 date: 2026-02-18
 slug: information-architecture-upgrade-2026
-tags: [PKM, DigitalGarden, Antigravity]
+tags:
+- PKM
+- DigitalGarden
+- Antigravity
+title: 大年初一知识管理体系构建 (Information Architecture) 升级
 ---
 
 # 大年初一：知识管理体系构建 (Information Architecture) 升级

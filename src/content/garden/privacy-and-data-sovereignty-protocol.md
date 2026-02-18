@@ -1,8 +1,12 @@
 ---
-title: Antigravity OS 隐私安全与数据主权协议
 date: 2026-02-18
-tags: [Security, Privacy, Constitution, Antigravity]
 slug: privacy-and-data-sovereignty-protocol
+tags:
+- Security
+- Privacy
+- Constitution
+- Antigravity
+title: Antigravity OS 隐私安全与数据主权协议
 ---
 
 # 🛡️ Antigravity OS 隐私安全与数据主权协议

@@ -1,8 +1,11 @@
 ---
-title: 🚀 Antigravity OS：一本笔记如何变成一个网站？
 date: 2026-02-18
-tags: [Tutorial, DigitalGarden, Antigravity]
 slug: how-antigravity-os-works-for-beginners
+tags:
+- Tutorial
+- DigitalGarden
+- Antigravity
+title: 🚀 Antigravity OS：一本笔记如何变成一个网站？
 ---
 
 # 🚀 Antigravity OS：一本笔记如何变成一个网站？

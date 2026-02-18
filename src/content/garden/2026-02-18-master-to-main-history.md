@@ -1,8 +1,11 @@
 ---
-title: Master 到 Main：代码世界的文化重构与反思
 date: 2026-02-18
-tags: [Life/日记, Culture/Tech, Git/History]
 slug: 2026-02-18-master-to-main-history
+tags:
+- Life/日记
+- Culture/Tech
+- Git/History
+title: Master 到 Main：代码世界的文化重构与反思
 ---
 
 # 📅 2026-02-18 Master 到 Main：代码世界的文化重构与反思

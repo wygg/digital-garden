@@ -1,8 +1,7 @@
 ---
-title: {{title}}
-date: {{date}}
-tags: [Life/日记]
-slug: {{date}}-{{title}}
+date: '2026-02-18'
+slug: daily-note-template
+title: daily_note_template
 ---
 
 # 📅 {{date}} {{title}}
