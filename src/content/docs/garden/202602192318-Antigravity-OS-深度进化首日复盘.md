@@ -6,7 +6,7 @@ tags:
 - 系统进化
 - 碳硅双轨
 - Antigravity-OS
-title: 2026-02-19 | Antigravity OS 深度进化首日复盘
+title: Antigravity OS 深度进化首日复盘
 ts: 1771514327
 updated: '2026-02-19 23:18:59'
 ---

@@ -1,7 +1,7 @@
 ---
 created: '2026-02-17 23:49:54'
 date: '2026-02-20'
-title: 2026-02-17 Antigravity Garden 知识管理体系与 URL 策略
+title: Antigravity Garden 知识管理体系与 URL 策略
 ts: 1771343394
 updated: '2026-02-17 23:49:55'
 ---
