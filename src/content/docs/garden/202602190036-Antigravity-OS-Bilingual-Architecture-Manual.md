@@ -1,6 +1,7 @@
 ---
 created: '2026-02-19 00:36:43'
 date: 2026-02-19
+slug: 202602190036-antigravity-os-bilingual-architecture-manual
 tags:
 - Project/Antigravity
 - System/Architecture

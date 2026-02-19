@@ -1,14 +1,12 @@
 ---
-created: '2026-02-18 13:52:28'
 date: 2026-02-18
+slug: vercel-deployment-sop
 tags:
 - vercel
 - deployment
 - ci-cd
 - study
 title: Vercel自动化发布技术复盘与SOP
-ts: 1771393948
-updated: '2026-02-19 23:17:02'
 ---
 
 # 🚀 从 GitHub 到 Vercel：自动化发布全流程复盘

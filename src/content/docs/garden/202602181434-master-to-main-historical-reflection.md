@@ -1,6 +1,7 @@
 ---
 created: '2026-02-18 14:34:15'
 date: 2026-02-18
+slug: 202602181434-master-to-main-historical-reflection
 tags:
 - Life/日记
 - Culture/Tech

@@ -1,5 +1,6 @@
 ---
 date: '{{date}}'
+slug: '{{date}}-{{title}}'
 tags: '[Life/日记]'
 title: '{{title}}'
 ---

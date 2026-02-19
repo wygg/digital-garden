@@ -1,6 +1,7 @@
 ---
 created: '2026-02-18 13:25:04'
 date: 2026-02-18
+slug: 202602181325-git-github-hands-on-review
 tags:
 - git
 - architecture

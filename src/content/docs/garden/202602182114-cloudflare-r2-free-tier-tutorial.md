@@ -1,6 +1,7 @@
 ---
 created: '2026-02-18 21:14:54'
 date: 2026-02-18
+slug: 202602182114-cloudflare-r2-free-tier-tutorial
 tags:
 - Tutorial
 - Cloudflare

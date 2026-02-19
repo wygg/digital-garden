@@ -1,13 +1,11 @@
 ---
-created: '2026-02-18 00:26:56'
 date: 2026-02-18
+slug: information-architecture
 tags:
 - PKM
 - DigitalGarden
 - Antigravity
 title: 大年初一知识管理体系构建 (Information Architecture) 升级
-ts: 1771345616
-updated: '2026-02-19 23:17:02'
 ---
 
 # 大年初一：知识管理体系构建 (Information Architecture) 升级
@@ -33,10 +31,16 @@ updated: '2026-02-19 23:17:02'
 
 ### 2.1 Library 的语义化排序 (Semantic Ordering)
 
-在 Library 内部，我们摒弃了多层级的物理文件夹，采用了 **“生命周期流”** 的 flat 结构，利用数字编号强制排序：
+在 Library 内部，我们摒弃了多层级的物理文件夹，采用了 **“生命周期流”** 的 flat 结构。整个系统的灵魂被归纳为两根支柱：
 
-*   **`000_Daily_Note (Life)`**：每天的时间流日记，这是生命的底色。
-*   **`100_一人大学 (Work)`**：核心长期项目，专注于教育与自我构建。
+*   **`000_Daily_Note (AI-Echo & Human-Grit)`**：个体的生命流动与回响。
+*   **`100_Vita_Activa_Academy`**：公共的志业实践与行动。
+
+并于 2026-02-19 升级为 **“碳硅双轨制”**：
+
+*   **`000_Daily_Note (AI-Echo)`**：**外燃机（Echo）**。记录与 AI 互喻学习的原始对话、脑暴产物、镜像回响。
+*   **`000_Daily_Note (Human-Grit)`**：**内炼炉（Grit）**。采用“日课修身”法，通过碳基书写完成生命的磨砺与内化。
+*   **`100_Vita_Activa_Academy`**：**核心志业（Action）**。致力于自由教育、消弭数字鸿沟与社会化学习的“行动空间”。
 *   **`200_AI_生产力 (Research)`**：所有的 AI 探索与实验。
 *   **`800_Digital_Garden (Output)`**：对外发布的数字花园。
 *   **`999_Projects (Archive)`**：历史项目的归档库。

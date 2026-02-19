@@ -1,5 +1,6 @@
 ---
 date: 2026-02-18
+slug: privacy-and-data-sovereignty-protocol
 tags:
 - Security
 - Privacy

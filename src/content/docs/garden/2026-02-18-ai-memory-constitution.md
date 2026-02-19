@@ -1,13 +1,11 @@
 ---
-created: '2026-02-18 14:29:08'
 date: 2026-02-18
+slug: 2026-02-18-ai-memory-constitution
 tags:
 - Life/日记
 - AI/Agent
 - Project/Antigravity
 title: 对抗 AI 遗忘：论 Antigravity OS 的宪法与传承
-ts: 1771396148
-updated: '2026-02-19 23:17:02'
 ---
 
 # 📅 2026-02-18 对抗 AI 遗忘：论 Antigravity OS 的宪法与传承

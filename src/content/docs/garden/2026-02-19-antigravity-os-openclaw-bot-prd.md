@@ -1,6 +1,7 @@
 ---
 created: '2026-02-19 22:11:47'
 date: '2026-02-19'
+slug: 2026-02-19-Antigravity-OS-OpenClaw-Bot-PRD
 tags: '[Life/日记, AI/脑暴, Antigravity-OS, PRD]'
 title: 'Antigravity OS: OpenClaw Bot 团队及调度面板 PRD'
 ts: 1771510307

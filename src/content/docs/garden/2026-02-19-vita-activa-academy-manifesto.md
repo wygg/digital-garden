@@ -1,6 +1,7 @@
 ---
 created: 2026-02-19 23:38:45
 date: 2026-02-19
+slug: 2026-02-19-vita-activa-academy-manifesto
 tags:
 - Calling
 - 哲学/行动

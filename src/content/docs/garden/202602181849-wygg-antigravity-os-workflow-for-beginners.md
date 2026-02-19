@@ -1,6 +1,7 @@
 ---
 created: '2026-02-18 18:49:50'
 date: 2026-02-18
+slug: 202602181849-wygg-antigravity-os-workflow-for-beginners
 tags:
 - Tutorial
 - DigitalGarden
