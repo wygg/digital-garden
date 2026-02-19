@@ -67,5 +67,3 @@ When the user asks to create or refine a daily note:
   - `000_Daily_Note (Human-Grit)`: Human reflection, "Grit" (The Internal Furnace).
   - `100_Vita_Activa_Academy`: Work, Public Action & Calling.
   - `200_AI_生产力`: Research & Experiments.
-
-#public
