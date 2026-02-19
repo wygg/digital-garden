@@ -1,10 +1,13 @@
 ---
+created: '2026-02-19 00:36:43'
 date: 2026-02-19
 tags:
 - Project/Antigravity
 - System/Architecture
 - i18n
 title: Antigravity OS 中英双语架构全景手册 (Bilingual Architecture Manual)
+ts: 1771432603
+updated: '2026-02-19 23:17:02'
 ---
 
 # 🌌 Antigravity OS 中英双语架构全景手册 (Bilingual Architecture Manual)

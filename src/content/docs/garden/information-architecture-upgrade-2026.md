@@ -1,10 +1,13 @@
 ---
+created: '2026-02-18 00:26:56'
 date: 2026-02-18
 tags:
 - PKM
 - DigitalGarden
 - Antigravity
 title: 大年初一知识管理体系构建 (Information Architecture) 升级
+ts: 1771345616
+updated: '2026-02-19 23:17:02'
 ---
 
 # 大年初一：知识管理体系构建 (Information Architecture) 升级

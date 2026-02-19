@@ -1,10 +1,13 @@
 ---
+created: '2026-02-18 18:49:50'
 date: 2026-02-18
 tags:
 - Tutorial
 - DigitalGarden
 - Antigravity
 title: 🚀 Antigravity OS：一本笔记如何变成一个网站？
+ts: 1771411790
+updated: '2026-02-18 19:00:01'
 ---
 
 # 🚀 Antigravity OS：一本笔记如何变成一个网站？

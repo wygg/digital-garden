@@ -1,10 +1,13 @@
 ---
+created: '2026-02-18 23:39:23'
 date: 2026-02-18
 tags:
 - AI/Agent
 - Project/Antigravity
 - DigitalGarden
 title: Starlight 集成与系统引擎升级全复盘
+ts: 1771429163
+updated: '2026-02-19 23:17:02'
 ---
 
 # 📅 2026-02-18 Starlight 集成与系统引擎升级全复盘

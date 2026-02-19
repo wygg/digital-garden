@@ -13,14 +13,21 @@ Your primary goal is to help the user maintain a high-quality "Study & Think" (L
 
 When the user asks to create or refine a daily note:
 
-- **Path Format**: `Library_Study-Think/000_Daily_Note (Life)/YYYY年学思笔记/YYYY年MM月/YYYY-MM-DD-Title.md`
-  - Example: `Library_Study-Think/000_Daily_Note (Life)/2026年学思笔记/2026年02月/2026-02-18-AI与人类协作复盘.md`
+- **Naming & Path Format (High-Precision Timestamping)**:
+  - **Rule**: All new files MUST use the `YYYYMMDDHHMM` prefix for physical sorting.
+- **AI-Echo Path**: `Library_Study-Think/000_Daily_Note (AI-Echo)/YYYY/MM/YYYYMMDDHHMM-Title.md`
+- **Human-Grit Path**: `Library_Study-Think/000_Daily_Note (Human-Grit)/YYYY/MM/YYYYMMDDHHMM-Title.md`
+- **Academy Path**: `Library_Study-Think/100_Vita_Activa_Academy/YYYYMMDDHHMM-Title.md`
+  - **Example**: `202602192305-Echo-Grit-Philosophy.md`
   
-- **Frontmatter (YAML)**:
-  - `title`: The note's main title (without date).
-  - `date`: `YYYY-MM-DD` (e.g., `2026-02-18`).
-  - `tags`: A list of relevant tags. Common ones: `Life/日记`, `AI/Agent`, `Project/Antigravity`.
-  - `slug`: `YYYY-MM-DD-title-in-english-or-pinyin` (URL-friendly string for the garden).
+- **Frontmatter (The "Life Timeline" Standard)**:
+  - `title`: The note's main title.
+  - `date`: `YYYY-MM-DD`.
+  - `created`: `YYYY-MM-DD HH:mm:ss` (Precise creation time).
+  - `updated`: `YYYY-MM-DD HH:mm:ss` (Last modification time).
+  - `ts`: Unix Timestamp (e.g., `1740006342`) - **MANDATORY** for system orchestration and sorting.
+  - `tags`: A list of relevant tags.
+  - `slug`: `YYYY-MM-DD-title` (Keep original YYYY-MM-DD for URL stability).
 
 - **Content Structure (The "Antigravity" Standard)**:
   1. `# 📅 YYYY-MM-DD Title` (H1 Header)
@@ -52,8 +59,15 @@ When the user asks to create or refine a daily note:
 ## 4. One Person University (一人大学) Context
 
 - This project is part of the "One Person University" (100_一人大学) architecture.
+- **The Dual Pillars of Antigravity OS**:
+  - `000_Daily_Note (AI-Echo & Human-Grit)`: 个体的生命流动与回响 (Private Reflection & Echo).
+  - `100_Vita_Activa_Academy`: 公共的志业实践与行动 (Public Action & Calling).
+
 - Always respect the folder structure:
-  - `000_Daily_Note`: Personal life & raw thoughts.
-  - `100_一人大学`: Work & Core projects.
+  - `000_Daily_Note (AI-Echo)`: AI co-learning, "Echo" (The External Engine).
+  - `000_Daily_Note (Human-Grit)`: Human reflection, "Grit" (The Internal Furnace).
+  - `100_Vita_Activa_Academy`: Work, Public Action & Calling.
   - `200_AI_生产力`: Research & Experiments.
+
+#public
 

@@ -1,7 +1,9 @@
 ---
+created: '2026-02-17 23:35:58'
+date: '2026-02-19'
 title: 2026-02-17 Antigravity Digital Garden 架构与SOP
-date: 2026-02-19
-tags: [public]
+ts: 1771342558
+updated: '2026-02-17 23:35:58'
 ---
 
 # 🌌 Antigravity Digital Garden 架构与SOP：从博客到数字生命体

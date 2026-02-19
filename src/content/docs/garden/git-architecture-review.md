@@ -1,4 +1,5 @@
 ---
+created: '2026-02-18 13:25:04'
 date: 2026-02-18
 tags:
 - git
@@ -6,6 +7,8 @@ tags:
 - study
 - antigravity
 title: Git与Ag-OS架构实战复盘手册
+ts: 1771392304
+updated: '2026-02-19 23:17:02'
 ---
 
 # 🛡️ Git 与 Antigravity-OS 双轨架构实战复盘
