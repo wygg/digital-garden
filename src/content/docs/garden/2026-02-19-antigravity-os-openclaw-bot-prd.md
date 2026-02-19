@@ -1,6 +1,7 @@
 ---
 created: '2026-02-19 22:11:47'
 date: '2026-02-19'
+slug: 2026-02-19-Antigravity-OS-OpenClaw-Bot指挥中心PRD
 title: 2026-02-19-Antigravity-OS-OpenClaw-Bot指挥中心PRD
 ts: 1771510307
 updated: '2026-02-19 23:17:02'

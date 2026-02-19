@@ -1,6 +1,7 @@
 ---
 created: '2026-02-17 23:35:58'
 date: '2026-02-19'
+slug: 2026-02-17-2026-02-17 Antigravity Digital Garden 架构与SOP
 title: 2026-02-17 Antigravity Digital Garden 架构与SOP
 ts: 1771342558
 updated: '2026-02-17 23:35:58'

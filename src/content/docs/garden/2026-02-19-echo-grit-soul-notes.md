@@ -1,6 +1,7 @@
 ---
 created: '2026-02-19 23:01:38'
 date: 2026-02-19
+slug: 2026-02-19-echo-grit-soul-notes
 tags:
 - 命名学
 - 哲学/思考
