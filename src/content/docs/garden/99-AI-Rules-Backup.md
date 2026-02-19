@@ -1,7 +1,6 @@
 ---
+date: '2026-02-20'
 title: 99_AI_Rules_Backup
-date: 2026-02-20
-tags: [public]
 ---
 
 # Antigravity OS - AI Behavior Rules
@@ -70,4 +69,3 @@ When the user asks to create or refine a daily note:
   - `200_AI_生产力`: Research & Experiments.
 
 #public
-

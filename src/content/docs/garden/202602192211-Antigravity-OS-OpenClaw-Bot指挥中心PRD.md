@@ -1,16 +1,10 @@
 ---
 created: '2026-02-19 22:11:47'
-date: '2026-02-20'
-title: 2026-02-19-Antigravity-OS-OpenClaw-Bot指挥中心PRD
+date: '2026-02-19'
+tags: '[Life/日记, AI/脑暴, Antigravity-OS, PRD]'
+title: 'Antigravity OS: OpenClaw Bot 团队及调度面板 PRD'
 ts: 1771510307
 updated: '2026-02-19 23:17:02'
----
-
----
-title: Antigravity OS: OpenClaw Bot 团队及调度面板 PRD
-date: 2026-02-19
-tags: [Life/日记, AI/脑暴, Antigravity-OS, PRD]
-slug: 2026-02-19-Antigravity-OS-OpenClaw-Bot-PRD
 ---
 
 # 🚀 Antigravity OS: 智能体调度面板（The "Command Center"）需求文档
