@@ -1,6 +1,5 @@
 ---
 date: 2026-02-18
-slug: 2026-02-18-master-to-main-history
 tags:
 - Life/日记
 - Culture/Tech

@@ -1,6 +1,5 @@
 ---
 date: 2026-02-18
-slug: information-architecture-upgrade-2026
 tags:
 - PKM
 - DigitalGarden
