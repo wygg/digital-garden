@@ -6,7 +6,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			plugins: [starlightThemeObsidian()],
-			title: 'Antigravity OS Garden',
+			title: 'WYGG LifeOS',
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }
 			],
