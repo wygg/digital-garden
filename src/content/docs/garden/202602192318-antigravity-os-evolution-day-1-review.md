@@ -1,7 +1,6 @@
 ---
 created: '2026-02-19 23:18:47'
 date: 2026-02-19
-slug: 202602192318-antigravity-os-evolution-day-1-review
 tags:
 - Human/日课
 - 系统进化

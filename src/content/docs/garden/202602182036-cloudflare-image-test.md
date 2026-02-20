@@ -1,7 +1,6 @@
 ---
 created: '2026-02-18 20:36:06'
 date: 2026-02-18
-slug: 202602182036-cloudflare-image-test
 tags:
 - Life/日记
 title: cloudflare 图片测试

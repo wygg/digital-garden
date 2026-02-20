@@ -1,7 +1,6 @@
 ---
 created: '2026-02-19 21:44:03'
 date: 2026-02-19
-slug: 202602192144-openclaw-bot-dashboard-design
 tags:
 - Life/日记
 title: 关于OpenClaw Bot团队及调度面板设计

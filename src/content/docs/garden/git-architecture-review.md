@@ -1,6 +1,5 @@
 ---
 date: 2026-02-18
-slug: git-architecture-review
 tags:
 - git
 - architecture

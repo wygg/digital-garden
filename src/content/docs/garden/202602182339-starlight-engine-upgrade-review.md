@@ -1,7 +1,6 @@
 ---
 created: '2026-02-18 23:39:23'
 date: 2026-02-18
-slug: 202602182339-starlight-engine-upgrade-review
 tags:
 - AI/Agent
 - Project/Antigravity

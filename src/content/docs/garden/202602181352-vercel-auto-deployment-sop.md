@@ -1,7 +1,6 @@
 ---
 created: '2026-02-18 13:52:28'
 date: 2026-02-18
-slug: 202602181352-vercel-auto-deployment-sop
 tags:
 - vercel
 - deployment

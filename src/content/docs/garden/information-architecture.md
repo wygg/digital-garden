@@ -1,6 +1,5 @@
 ---
 date: 2026-02-18
-slug: information-architecture
 tags:
 - PKM
 - DigitalGarden
